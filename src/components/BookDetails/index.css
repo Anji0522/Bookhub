@@ -1,0 +1,174 @@
+.book-details-page {
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+
+.book-details-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px 16px 56px;
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+/* Success view */
+.book-item-details-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 24px;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
+}
+
+.book-item-header {
+  display: flex;
+  gap: 20px;
+}
+
+.book-item-cover {
+  width: 110px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.book-item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
+
+.book-item-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 4px;
+}
+
+.book-item-author {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0 0 12px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.avg-rating {
+  font-size: 13px;
+  color: #64748b;
+}
+
+.star-icon {
+  color: #f59e0b;
+  font-size: 14px;
+}
+
+.rating-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.book-status {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+}
+
+.status-highlight {
+  font-weight: 600;
+  color: #0284c7;
+}
+
+.divider-line {
+  border: none;
+  border-top: 1px solid #e2e8f0;
+  margin: 24px 0;
+}
+
+.about-section {
+  margin-bottom: 24px;
+}
+
+.about-section:last-child {
+  margin-bottom: 0;
+}
+
+.about-heading {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 8px;
+}
+
+.about-description {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #475569;
+  margin: 0;
+}
+
+/* Failure view */
+.book-details-failure-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  gap: 14px;
+}
+
+.failure-img {
+  width: 200px;
+  max-width: 60%;
+}
+
+.failure-heading {
+  color: #475569;
+  font-size: 15px;
+  margin: 0;
+}
+
+.retry-btn {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0284c7;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.retry-btn:hover {
+  background-color: #0369a1;
+}
+
+@media screen and (min-width: 576px) {
+  .book-details-container {
+    padding-top: 40px;
+  }
+
+  .book-item-details-card {
+    padding: 32px;
+  }
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.rating-container p {
+  margin: 0 8px 0 0;
+}

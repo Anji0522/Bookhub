@@ -1,0 +1,23 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0;
+  background-color: #ffffff;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-icon {
+  font-size: 20px;
+  color: #475569;
+}
+
+.footer-text {
+  margin: 8px 0 0;
+  font-size: 16px;
+  color: #475569;
+}
